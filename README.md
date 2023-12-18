@@ -19,6 +19,20 @@ The visuualiztion took some time to figure out.  At first I was very focused on 
 
 ![image](/ImageDD/photoTile1682.png)
 
+I shifted focus to the financial data being the primary visualization and the photos a lesser concern.  This worked much better and started to show some interesting flows and trends in the data.
+
+![image](/assets/live.png)
+
+![image](/assets/work.png)
+
+The final piece was then showing a photo with the financial data when the grid cell is selected.
+
+![image](/assets/buddy2.png)
+
+# Code
+
+The processing code is written using experiements with OOP as I was trying to learn how processing handled derivation and polymorphism.  It's pretty standard however it does not support public/private member variables and methods so it is still possible to get a bit "hacky" with the coding. See the grid and thumbnail classes for the main display code.
+
 # References
 
 (1) Database Aesthetics Art in the Age of Information Overflow 2007 • Victoria Vesna, editor [Book](https://www.upress.umn.edu/book-division/books/database-aesthetics)
