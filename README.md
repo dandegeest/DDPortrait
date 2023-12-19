@@ -31,7 +31,7 @@ The final piece was then showing a photo with the financial data when the grid c
 
 # Code
 
-The processing code is written using experiements with OOP as I was trying to learn how processing handled derivation and polymorphism.  It's pretty standard OOP however, it does not support public/private member variables and methods so it is still possible to get a bit "hacky" with the coding. See the grid and thumbnail classes for the main display code. The data code is also abstracted.  I also implemented a Sprite class with an offset to support the scrolling grid.  Processing provides matrix transformations for drawing but do make mouse handling and other things seamless, it is better to handle the offset directly in the rendering code while keeping the coordinate system fixed at 0,0.
+The processing code is written using experiements with OOP as I was trying to learn how processing handled derivation and polymorphism.  It's pretty standard OOP however, it does not support public/private member variables and methods so it is still possible to get a bit "hacky" with the coding. See the [grid](/Grid.pde) and [thumbnail](/Thumbnail.pde) classes for the main display code. The data code is also abstracted.  I also implemented a [Sprite](/Sprite.pde) class with an x, y offset to support the scrolling grid.  Processing provides matrix transformations for drawing but they make mouse handling and other things harder, it is better to handle the drawing offset directly in the rendering code while keeping the coordinate system fixed at 0,0 for mouse events and so on.
 
 # References
 
